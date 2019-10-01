@@ -10,6 +10,7 @@ import { ModalComponent } from './_directives';
 import { ModalService } from './_services';
 import { HomeComponent } from './home';
 import { TestPageComponent } from './test-page';
+import { ConfirmationModalComponent } from './confirmation-modal/confirmation-modal.component';
 
 @NgModule({
     imports: [
@@ -22,7 +23,8 @@ import { TestPageComponent } from './test-page';
         AppComponent,
         ModalComponent,
         HomeComponent,
-        TestPageComponent
+        TestPageComponent,
+        ConfirmationModalComponent
     ],
     providers: [
         ModalService
